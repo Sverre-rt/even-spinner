@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
-
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   // State to keep track of the counter value
